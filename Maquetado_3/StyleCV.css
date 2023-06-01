@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #ecebeb;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #999999;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+/* Columnas */
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 2;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Imagen personal */
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos para imprimir */
+@media print {
+  body {
+    background-color: #fff;
+  }
+
+  .container {
+    box-shadow: none;
+  }
+}
